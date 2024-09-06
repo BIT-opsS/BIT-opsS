@@ -8,6 +8,6 @@ foreach ($line in $content) {
     foreach ($match in $matches) {
         $value = $match.Groups[1].Value
 	#$foundStrings += $value	
-        Write-Host "String yang ditemukan:" $($value)"
+        #Write-Host "String yang ditemukan:" $($value)"
     }
 }
